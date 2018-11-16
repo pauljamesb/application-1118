@@ -14,9 +14,14 @@ public class Program
             var itemInput = Console.ReadLine();
             Item MyItem = new Item();
             MyItem.Name = itemInput;
+            AllItems.Add(MyItem);
 
             if (itemInput.ToLower() == "end")
             break;
+        }
+        foreach(var el in AllItems)
+        {
+            Console.WriteLine(el.Name);
         }
 
 
