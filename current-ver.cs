@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
+
 public class Program
 {
     public static void Main()
@@ -9,13 +10,9 @@ public class Program
 
         while(true)
         {
-            Console.WriteLine("Enter item: ");
-            var inputItem = Console.ReadLine();
-            var newItem = new Item();
-            newItem.Name = inputItem;
-            Store.allItems.Add(newItem);
+            CreateItem.CreateNewItem();
 
-            if (inputItem.ToLower() == "end")
+            if (Variables.inputItem.ToLower() == "end")
 				break;
         }
 
@@ -38,7 +35,32 @@ public class Item
     public String Name { get; set; }
 }
 
+
+
+// Static classes
+public static class Variables
+{
+    public static string inputItem { get; set; }
+}
+
+
 public static class Store
 {
     public static List<Item> allItems = new List<Item>();
+}
+
+
+public static class CreateItem
+{
+    public static void CreateNewItem()
+    {
+        Console.WriteLine("Enter item: ");
+        Variables.inputItem = Console.ReadLine();
+        if(Variables.inputItem != "end")
+        {
+            var newItem = new Item();
+            newItem.Name = Variables.inputItem;
+            Store.allItems.Add(newItem);
+        }
+    }
 }
