@@ -1,0 +1,11 @@
+/Users/pb/Projects/MMApp/MMApp/bin/Debug/netcoreapp2.1/MMApp.deps.json
+/Users/pb/Projects/MMApp/MMApp/bin/Debug/netcoreapp2.1/MMApp.runtimeconfig.json
+/Users/pb/Projects/MMApp/MMApp/bin/Debug/netcoreapp2.1/MMApp.runtimeconfig.dev.json
+/Users/pb/Projects/MMApp/MMApp/bin/Debug/netcoreapp2.1/MMApp.dll
+/Users/pb/Projects/MMApp/MMApp/bin/Debug/netcoreapp2.1/MMApp.pdb
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.csprojResolveAssemblyReference.cache
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.csproj.CoreCompileInputs.cache
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.AssemblyInfoInputs.cache
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.AssemblyInfo.cs
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.dll
+/Users/pb/Projects/MMApp/MMApp/obj/Debug/netcoreapp2.1/MMApp.pdb
